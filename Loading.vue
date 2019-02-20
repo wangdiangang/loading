@@ -2,7 +2,7 @@
 //直接引入使用 import Loading from './Loading.vue'
 
 <template>
-<div class="load" :style="{marginTop: marginTop? marginTop : '50%'}">
+<div class="load">
     <span class="ld-span"></span>
     <span class="ld-span"></span>
     <span class="ld-span"></span>
@@ -17,8 +17,6 @@
 <script>
 export default {
   name: 'Loading',
-  props: ["marginTop"]
-
 }
 </script>
 
